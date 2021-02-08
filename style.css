@@ -28,6 +28,7 @@ ul {
 #mobile {
     background-color: orange;
 }
+
 /* header */
 header {
     background-color: white;
@@ -53,21 +54,20 @@ main {
     padding: 5px;
     font-size: 12px;
     font-weight:bold;
-    margin: 5px;
     border-radius: 3px;
     display: inline-block;
 }
 .add_task {
     color: white;
     background-color: lightblue;
-    margin-left: 30px;
+    margin: 15px 2px 8px 30px;
 }
 .add_section {
     color: gray;
     border: 1px solid gray;
 }
 .list_section {
-    margin: 30px;
+    margin: 50px;
 }
 .main_list h3{
     font-weight: bold;
@@ -87,8 +87,13 @@ main {
 .circle {
     border: 2px solid;
     border-radius: 50%;
-    margin: 5px;
-    padding: 2px;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    padding: 0px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 15px;
 }
 li {
     font-weight: 500;
