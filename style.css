@@ -1,0 +1,103 @@
+/* general style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #c0c0c023;
+}
+ul {
+    list-style-type: none;
+}
+#editorial {
+    background-color: blue;
+}
+#Q1_goals {
+    background-color: purple;
+}
+#recruiting {
+    background-color: green;
+}
+#sales {
+    background-color: lightgreen;
+}
+#website {
+    background-color: pink;
+}
+#mobile {
+    background-color: orange;
+}
+/* header */
+header {
+    background-color: white;
+}
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+img {
+    vertical-align: middle;
+    margin: 10px 0 10px 20px;
+
+}
+
+/* main */
+main {
+    background-color: white;
+    width: 70%;
+    height: 550px;
+    margin: 5% auto 0 auto;
+}
+.span_container span {
+    padding: 5px;
+    font-size: 12px;
+    font-weight:bold;
+    margin: 5px;
+    border-radius: 3px;
+    display: inline-block;
+}
+.add_task {
+    color: white;
+    background-color: lightblue;
+    margin-left: 30px;
+}
+.add_section {
+    color: gray;
+    border: 1px solid gray;
+}
+.list_section {
+    margin: 30px;
+}
+.main_list h3{
+    font-weight: bold;
+}
+.main_list  li {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.check {
+    color: green;
+}
+.cross {
+    color: red;
+    font-weight: bold;
+
+}
+.circle {
+    border: 2px solid;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 2px;
+}
+li {
+    font-weight: 500;
+}
+.special_words {
+    border-radius: 25px;
+    border: 2px solid;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+}
