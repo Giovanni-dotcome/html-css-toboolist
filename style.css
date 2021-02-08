@@ -10,22 +10,22 @@ body {
 ul {
     list-style-type: none;
 }
-#editorial {
+.editorial {
     background-color: blue;
 }
-#Q1_goals {
+.Q1_goals {
     background-color: purple;
 }
-#recruiting {
+.recruiting {
     background-color: green;
 }
-#sales {
+.sales {
     background-color: lightgreen;
 }
-#website {
+.website {
     background-color: pink;
 }
-#mobile {
+.mobile {
     background-color: orange;
 }
 
@@ -47,7 +47,6 @@ img {
 main {
     background-color: white;
     width: 70%;
-    height: 550px;
     margin: 5% auto 0 auto;
 }
 .span_container span {
@@ -68,6 +67,9 @@ main {
 }
 .list_section {
     margin: 50px;
+}
+.main_list {
+    padding-bottom: 10px;
 }
 .main_list h3{
     font-weight: bold;
